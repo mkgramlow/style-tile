@@ -4,11 +4,40 @@
 
 /* Color Palette */
 
+.color-1 {
+background: red;
+}
+
+.color-2 {
+background: green;
+}
 
 /* Textures or Patterns*/
 
+.pattern-1 {
+background: url(http://thumbs.dreamstime.com/thumb_544/12861978622AXuey.jpg);
+}
 
 /* Imagery */
+
+.imagery-1 {
+background: url(http://images.clipartpanda.com/-9TRjjG5Te.png);
+    width: 400px;
+    height: 600px;
+}
+
+.imagery-2 {
+background: url(http://www.clipartpal.com/_thumbs/pd/holiday/christmas/Christmas_tree_decorations_large_T.png);
+    width: 400px;
+    height: 600px;
+}
+
+.imagery-3 {
+background: url(http://images.clipartpanda.com/christmas-clipart-images-cute-christmas-clip-art-2-freecuteclipartblogspot_1.gif);
+    width: 400px;
+    height: 600px;
+}
+
 
 
 /* Icons */
