@@ -9,7 +9,7 @@ background: #B385DA;
 }
 
 .color-2 {
-background: grey;
+background:  #615F5F;
 }
 
 .color-3 {
@@ -19,7 +19,7 @@ background: grey;
 /* Textures or Patterns*/
 
 .pattern-1 {
-background: url(http://thumbs.dreamstime.com/thumb_544/12861978622AXuey.jpg);
+background: ;
 }
 
 .pattern-2 {
@@ -29,22 +29,25 @@ background: url(http://thumbs.dreamstime.com/thumb_544/12861978622AXuey.jpg);
 /* Imagery */
 
 .imagery-1 {
-background-image: url(http://images.clipartpanda.com/-9TRjjG5Te.png);
+background-image: url("../img/bbeast.jpg");
     width: 400px;
     height: 300px;
 }
 
 .imagery-2 {
-background-image: url(http://www.clipartpal.com/_thumbs/pd/holiday/christmas/Christmas_tree_decorations_large_T.png);
+background-image: url("../img/bfloral.jpg");
+    width: 400px;
+    height: 300px;
+    transform: scale()
+}
+
+.imagery-3 {
+background-image: url("../img/bmap.jpg");
     width: 400px;
     height: 300px;
 }
 
-.imagery-3 {
-background-image: url(http://images.clipartpanda.com/christmas-clipart-images-cute-christmas-clip-art-2-freecuteclipartblogspot_1.gif);
-    width: 400px;
-    height: 300px;
-}
+
 
 
 
@@ -62,3 +65,46 @@ body {font-family: 'Raleway', sans-serif;}
 
 
 /* Cards */
+
+
+/*** Navigation ***/
+nav {
+    padding: 2px;
+    text-align: center;
+}
+
+
+li {
+    padding: 10px;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 0 12px;
+}
+/* Link& Visited State */
+a:link,
+a:visited {
+  border-left: 8px solid none;
+  color: #B385DA;
+  display: block;
+  height: 32px;
+  line-height: 32px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  /* vertical-align: center; */
+  width:80px;
+  transition: background .25s, margin-left 2s;
+}
+
+/* Hover */
+a:hover {
+  background: lightgrey;
+  border-left: 8px solid none;
+  color: #B385DA;  
+  margin-left: 32px;
+transition: background .5s, margin-left .5s;
+}
