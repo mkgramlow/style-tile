@@ -58,8 +58,22 @@ background-image: url("../img/bmap.jpg");
 
 body {font-family: 'Raleway', sans-serif;}
 
-/* Forms */
 
+h2,
+h3,
+p
+{font-family: 'Merriweather Sans', sans-serif;}
+
+/* Forms */
+input[type="button"]{
+  background: #B385DA;
+  padding: .5em;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px grey;
+  color: black;
+  font-size: 1em;
+}
 
 /* Tables */
 
